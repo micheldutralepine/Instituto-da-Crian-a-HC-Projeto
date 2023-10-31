@@ -27,10 +27,44 @@ ul {
   list-style: none;
 }
 
-footer a {
-  text-decoration: none;
+/* header  */
+
+#top-header {
+  background: #fcf7f7;
+}
+
+.tamanho-header {
+}
+
+.header-container {
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 65%;
+  width: 100%;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+.header-column {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+.pesquisar-texto {
+  width: 190px;
+  height: 36px;
+}
+
+.pesquisar {
   color: #fff;
-  padding: 5px;
+  background-color: #30aaa0;
+  margin-left: 10px;
+  width: 150px;
+  height: 30;
+  border: none;
+  border-radius: 5px;
 }
 
 /* conteudo */
