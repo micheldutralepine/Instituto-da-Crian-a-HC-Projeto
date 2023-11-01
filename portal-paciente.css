@@ -27,13 +27,14 @@ ul {
   list-style: none;
 }
 
-/* header  */
+/* Top header  */
 
-#top-header {
-  background: #fcf7f7;
+#header {
+  background: #fff;
 }
 
 .tamanho-header {
+  background: #fcf7f7;
 }
 
 .header-container {
@@ -65,6 +66,18 @@ ul {
   height: 30;
   border: none;
   border-radius: 5px;
+}
+
+/* Mid header  */
+
+#mid-header {
+  padding: 20px 0;
+  max-width: 65%;
+  margin: auto;
+}
+
+.imgs-mid-header {
+  display: flex;
 }
 
 /* conteudo */
