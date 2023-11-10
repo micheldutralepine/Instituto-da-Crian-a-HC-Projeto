@@ -27,67 +27,113 @@ p {
   list-style: none;
   color: #fff;
   text-decoration: none;
+} 
+
+ul li {
+  list-style: none;
 }
 
-a {
-  color: #fff;
-  list-style: none;
+ /* HEADER */
+ .cabeçalho{
+  background-color: #fcf7f7;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+
+} 
+.pin_local {
+  margin-left: 100px;
+  
+}
+.endereco{
+  color: #59595a;
+  font: 11px "Open Sans";
+  margin-right: 55px;
+  margin-left: 20px;
+}
+.pin_tel {
+  margin-right: 100px;
+  margin-left: -25px;
+}
+.telefone{
+  color: #59595a;
+  font: 11px "Open Sans";
+  margin-right: 200px;
+  margin-left: -85px;
+} 
+.pesquisa{
+  padding: 6px 12px;
+  background-color: #f7f7f7; 
+  margin-right: 190px;
+  color: #f7f7f7;
+  border: 1px solid #eee;
+
+}
+.botao{
+  padding: 4px 40px;
+  background-color: #30aaa0;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-right: -105px;
+  margin-left: -150px;
+} 
+
+/* NAVEGAÇÃO */
+.menu_nav {
+background-color: #1e1b54;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.menu_nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.menu_nav li {
+float: left;
+}
+.menu_nav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+/* PATH */
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.caminho {
+  position: relative;
+  max-width: 100%;
+}
+
+.fundo_local {
+  border: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -860px;
+}
+
+.texto_local {
+  color: #f7f7f7;
+  position: absolute;
+  top: 223px;
+  text-align: center;
+  width: 100%;
+  background: none;    
   text-decoration: none;
 }
 
-
-/* Top header  */
-
-#header {
-  background: #fff;
-}
-
-.tamanho-header {
-  background: #fcf7f7;
-}
-
-.header-container {
-  font-size: 12px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 65%;
-  width: 100%;
-  padding-bottom: 15px;
-  margin: auto;
-}
-
-.header-column {
-  display: flex;
-  padding: 10px;
-  margin: auto;
-}
-
-.pesquisar-texto {
-  width: 190px;
-  height: 36px;
-}
-
-.pesquisar {
-  color: #fff;
-  background-color: #30aaa0;
-  margin-left: 10px;
-  width: 150px;
-  height: 30;
-  border: none;
-  border-radius: 5px;
-}
-
-/* Mid header  */
-
-#mid-header {
-  padding: 20px 0;
-  max-width: 65%;
-  margin: auto;
-}
-
-.imgs-mid-header {
-  display: flex;
-}
 
 /* Menu  */
 #menu-horizontal {
